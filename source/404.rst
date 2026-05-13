@@ -1,0 +1,13 @@
+:layout: simple
+:orphan:
+
+404 Not Found
+=============
+
+This page doesn't exist. You could try:
+
+- Returning to :doc:`index </index>`.
+- Creating this page.
+- If you were linked here, `report a broken link`_ .
+
+.. _`report a broken link`: https://github.com/kindafax/kindafax.github.io/issues/new
