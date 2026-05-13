@@ -48,26 +48,30 @@ html_theme_options = {
             "title": "About",
             "url": "/index"
         },
-        {
-	        "title": "Docs",
-            "url": "/docs/index",
-            "children": [
-                {
-                    "title": "Client",
-                    "url": "client/index",
-                    "summary": "Documentation for the KindaFax client software"
-                },
-                {
-                    "title": "Server",
-                    "url": "server/index",
-                    "summary": "Documentation for the KindaFax server software"
-                },
-                {
-                    "title": "Common Library",
-                    "url": "common/index",
-                    "summary": "Documentation for the KindaFax common library"
-                },
-            ]
-        }
+        # {
+	      #     "title": "Docs",
+        #     "url": "/docs/index",
+        #     "children": [
+        #         {
+        #             "title": "Client",
+        #             "url": "client/index",
+        #             "summary": "Documentation for the KindaFax client software"
+        #         },
+        #         {
+        #             "title": "Server",
+        #             "url": "server/index",
+        #             "summary": "Documentation for the KindaFax server software"
+        #         },
+        #         {
+        #             "title": "Common Library",
+        #             "url": "common/index",
+        #             "summary": "Documentation for the KindaFax common library"
+        #         },
+        #     ]
+        # },
+        # {
+        #     "title": "About",
+        #     "url": "/index"
+        # },
     ]
 }
