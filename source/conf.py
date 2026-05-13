@@ -49,7 +49,7 @@ html_theme_options = {
             "url": "/index"
         },
         # {
-	    #     "title": "Docs",
+	      #     "title": "Docs",
         #     "url": "/docs/index",
         #     "children": [
         #         {
