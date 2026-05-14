@@ -22,6 +22,8 @@ other platforms and devices.
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Documentation
+   :hidden:
+
+   server/index
 
