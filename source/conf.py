@@ -35,6 +35,7 @@ source_suffix = {
 
 html_theme = "shibuya"
 html_static_path = ['_static']
+html_extra_path = ['robots.txt']
 html_baseurl = "https://kindafax.itsdanjc.com/"
 # html_logo = "/favicon.ico"
 
