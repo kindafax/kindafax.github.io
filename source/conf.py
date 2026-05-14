@@ -15,6 +15,10 @@ author = 'itsdanjc'
 
 extensions = [
 	"myst_parser",
+    "sphinx_design",
+    "sphinx_copybutton",
+    "notfound.extension",
+    "sphinx_sitemap"
 ]
 
 templates_path = ['_templates']
@@ -26,19 +30,24 @@ source_suffix = {
 }
 
 
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "shibuya"
 html_static_path = ['_static']
+html_extra_path = ['robots.txt']
+html_baseurl = "https://kindafax.itsdanjc.com/"
 # html_logo = "/favicon.ico"
+
+sitemap_show_lastmod = True
+
+notfound_urls_prefix = "/"
 
 html_context = {
     "source_type": "github",
     "source_user": "kindafax",
     "source_repo": "server",
-    "source_edit_template": "https://github.com/kindafax/kindafax.github.io/blob/main/{0}",
+    "source_edit_template": "https://github.com/kindafax/kindafax.github.io/blob/main/source/{0}",
 }
 
 html_theme_options = {
@@ -66,12 +75,12 @@ html_theme_options = {
             "children": [
                 {
                     "title": "Recept Printer",
-                    "url": "client/printer/index",
+                    "url": "docs/client/printer/index",
                     "summary": "Use a receipt printer to receive messages."
                 },
                 {
                     "title": "Web Client",
-                    "url": "client/web/index",
+                    "url": "docs/client/web/index",
                     "summary": "Connect to a KindaFax Server from anywhere."
                 },
             ]
