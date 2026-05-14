@@ -38,7 +38,7 @@ html_context = {
     "source_type": "github",
     "source_user": "kindafax",
     "source_repo": "server",
-    "source_edit_template": "https://github.com/kindafax/kindafax.github.io/blob/main/{0}",
+    "source_edit_template": "https://github.com/kindafax/kindafax.github.io/blob/main/source/{0}",
 }
 
 html_theme_options = {
@@ -66,12 +66,12 @@ html_theme_options = {
             "children": [
                 {
                     "title": "Recept Printer",
-                    "url": "client/printer/index",
+                    "url": "docs/client/printer/index",
                     "summary": "Use a receipt printer to receive messages."
                 },
                 {
                     "title": "Web Client",
-                    "url": "client/web/index",
+                    "url": "docs/client/web/index",
                     "summary": "Connect to a KindaFax Server from anywhere."
                 },
             ]
