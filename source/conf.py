@@ -40,38 +40,32 @@ html_theme_options = {
     "accent_color": "blue",
     "globaltoc_expand_depth": 1,
 
-    "github_url": "https://github.com/itsdanjc/kindafax",
-    "gitlab_url": "https://gitlab.com/itsdanjc/kindafax",
+    "github_url": "https://github.com/kindafax",
+    "gitlab_url": "https://gitlab.com/kindafax",
 
     "nav_links": [
         {
             "title": "About",
-            "url": "/index"
+            "url": "https://itsdanjc.com"
+        },
+        {
+            "title": "Server",
+            "url": "server/index"
+        },
+        {
+	        "title": "Clients",
+            "children": [
+                {
+                    "title": "Recept Printer",
+                    "url": "recept-printer/index",
+                    "summary": "Use a receipt printer to receive messages."
+                },
+            ]
         },
         # {
-	      #     "title": "Docs",
-        #     "url": "/docs/index",
-        #     "children": [
-        #         {
-        #             "title": "Client",
-        #             "url": "client/index",
-        #             "summary": "Documentation for the KindaFax client software"
-        #         },
-        #         {
-        #             "title": "Server",
-        #             "url": "server/index",
-        #             "summary": "Documentation for the KindaFax server software"
-        #         },
-        #         {
-        #             "title": "Common Library",
-        #             "url": "common/index",
-        #             "summary": "Documentation for the KindaFax common library"
-        #         },
-        #     ]
-        # },
-        # {
-        #     "title": "About",
-        #     "url": "/index"
+        #     "title": "Open Web UI",
+        #     "url": "/web/",
+        #     "external": True
         # },
     ]
 }
