@@ -34,11 +34,20 @@ html_theme = "shibuya"
 html_static_path = ['_static']
 # html_logo = "/favicon.ico"
 
+html_context = {
+    "source_type": "github",
+    "source_user": "kindafax",
+    "source_repo": "server",
+    "source_edit_template": "https://github.com/kindafax/kindafax.github.io/blob/main/{0}",
+}
+
 html_theme_options = {
     "page_layout": "default",
     "logo_target": "/",
     "accent_color": "blue",
     "globaltoc_expand_depth": 1,
+    
+    "show_ai_links": False,
 
     "github_url": "https://github.com/kindafax",
     "gitlab_url": "https://gitlab.com/kindafax",
