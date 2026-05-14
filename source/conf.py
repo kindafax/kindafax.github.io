@@ -66,7 +66,7 @@ html_theme_options = {
             "children": [
                 {
                     "title": "Recept Printer",
-                    "url": "recept-printer/index",
+                    "url": "client/printer/index",
                     "summary": "Use a receipt printer to receive messages."
                 },
             ]

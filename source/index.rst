@@ -26,4 +26,5 @@ other platforms and devices.
    :hidden:
 
    server/index
+   client/printer/index
 
