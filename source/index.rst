@@ -27,4 +27,5 @@ other platforms and devices.
 
    server/index
    client/printer/index
+   client/web/index
 

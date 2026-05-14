@@ -69,10 +69,15 @@ html_theme_options = {
                     "url": "client/printer/index",
                     "summary": "Use a receipt printer to receive messages."
                 },
+                {
+                    "title": "Web Client",
+                    "url": "client/web/index",
+                    "summary": "Connect to a KindaFax Server from anywhere."
+                },
             ]
         },
         # {
-        #     "title": "Open Web UI",
+        #     "title": "Open Web Client",
         #     "url": "/web/",
         #     "external": True
         # },
