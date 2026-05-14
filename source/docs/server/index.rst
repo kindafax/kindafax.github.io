@@ -1,5 +1,5 @@
-KindaFax Server
-===============
+Server
+======
 
 .. rst-class:: lead
 
