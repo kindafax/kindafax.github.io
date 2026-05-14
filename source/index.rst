@@ -20,8 +20,13 @@ I found that, I was basically creating an instant messenger, and decided, withou
 the project could be expand to not only use recept printers, but also have clients for 
 other platforms and devices.
 
+Get Started
+-----------
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Documentation
+
+   docs/server/index
+   docs/client/printer/index
+   docs/client/web/index
 
