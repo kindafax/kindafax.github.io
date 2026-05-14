@@ -17,7 +17,8 @@ extensions = [
 	"myst_parser",
     "sphinx_design",
     "sphinx_copybutton",
-    "notfound.extension"
+    "notfound.extension",
+    "sphinx-sitemap"
 ]
 
 templates_path = ['_templates']
@@ -34,7 +35,10 @@ source_suffix = {
 
 html_theme = "shibuya"
 html_static_path = ['_static']
+html_baseurl = "https://kindafax.itsdanjc.com/"
 # html_logo = "/favicon.ico"
+
+sitemap_show_lastmod = True
 
 notfound_urls_prefix = "/"
 

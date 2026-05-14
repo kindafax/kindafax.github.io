@@ -4,3 +4,4 @@ shibuya
 sphinx-design
 sphinx_copybutton
 sphinx-notfound-page
+sphinx-sitemap
