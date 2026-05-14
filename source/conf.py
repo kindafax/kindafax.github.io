@@ -15,6 +15,9 @@ author = 'itsdanjc'
 
 extensions = [
 	"myst_parser",
+    "sphinx_design",
+    "sphinx_copybutton",
+    "notfound.extension"
 ]
 
 templates_path = ['_templates']
@@ -26,13 +29,14 @@ source_suffix = {
 }
 
 
-
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "shibuya"
 html_static_path = ['_static']
 # html_logo = "/favicon.ico"
+
+notfound_urls_prefix = "/"
 
 html_context = {
     "source_type": "github",

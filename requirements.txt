@@ -1,0 +1,6 @@
+sphinx
+myst_parser
+shibuya
+sphinx-design
+sphinx_copybutton
+sphinx-notfound-page
