@@ -40,13 +40,14 @@ html_baseurl = "https://kindafax.itsdanjc.com/"
 # html_logo = "/favicon.ico"
 
 sitemap_show_lastmod = True
+sitemap_url_scheme = "{link}"
+sitemap_excludes = [
+    "404.html",
+]
 
 notfound_urls_prefix = "/"
 
 html_context = {
-    "source_type": "github",
-    "source_user": "kindafax",
-    "source_repo": "server",
     "source_edit_template": "https://github.com/kindafax/kindafax.github.io/blob/main/source/{0}",
 }
 
@@ -63,32 +64,29 @@ html_theme_options = {
 
     "nav_links": [
         {
-            "title": "About",
-            "url": "https://itsdanjc.com"
-        },
-        {
-            "title": "Server",
-            "url": "server/index"
-        },
-        {
-	        "title": "Clients",
+	        "title": "Documentation",
+            "url": "docs/index",
             "children": [
                 {
-                    "title": "Recept Printer",
-                    "url": "docs/client/printer/index",
+                    "title": "Server",
+                    "url": "docs/server/index",
+                    "summary": "The main component of KindaFax. Learn how to host and maintain KindaFax, on your hardware."
+                },
+                {
+                    "title": "Printer Client",
+                    "url": "docs/printer/index",
                     "summary": "Use a receipt printer to receive messages."
                 },
                 {
                     "title": "Web Client",
-                    "url": "docs/client/web/index",
+                    "url": "docs/web/index",
                     "summary": "Connect to a KindaFax Server from anywhere."
                 },
             ]
         },
-        # {
-        #     "title": "Open Web Client",
-        #     "url": "/web/",
-        #     "external": True
-        # },
+        {
+            "title": "About",
+            "url": "https://itsdanjc.com",
+        }
     ]
 }
