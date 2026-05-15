@@ -12,27 +12,18 @@ Designed for the modern web, KindaFax is a new take on 2000s-era web communicati
 inspired by services like MSN and AOL Instant Messenger.
 
 
-Get Started
------------
+What Would You Like To Do?
+--------------------------
 
 .. grid:: 1 1 2 2
    :padding: 0
    :gutter: 2
 
-   .. grid-item-card:: Server
-      :link: /docs/server/
+   .. grid-item-card:: Explore the Documentation
+      :link: /docs/
 
-      The main component of KindaFax. Learn how to host and maintain KindaFax, on your hardware.
+      Learn more about KindaFax... 
 
-   .. grid-item-card:: Web Client
-      :link: /docs/client/web/
-
-      Connect to a KindaFax instance, send and receive messages, from anywhere.
-
-   .. grid-item-card:: Printer Client
-      :link: /docs/client/printer/
-
-      Use a receipt printer to receive messages.
 
 
 The Idea
@@ -44,10 +35,6 @@ the project could be expand to not only use recept printers, but also have clien
 other platforms and devices.
 
 .. toctree::
-   :caption: Documentation
    :hidden:
 
-   docs/server/index
-   docs/client/printer/index
-   docs/client/web/index
-
+   docs/index
