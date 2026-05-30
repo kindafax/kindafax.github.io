@@ -36,5 +36,8 @@ other platforms and devices.
 
 .. toctree::
    :hidden:
+   :caption: Documentation
+   :glob:
 
-   docs/index
+   docs/server/index
+   docs/*/index
