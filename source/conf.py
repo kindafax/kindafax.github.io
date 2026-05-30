@@ -18,7 +18,8 @@ extensions = [
     "sphinx_design",
     "sphinx_copybutton",
     "notfound.extension",
-    "sphinx_sitemap"
+    "sphinx_sitemap",
+    "sphinx_reredirects"
 ]
 
 templates_path = ['_templates']
