@@ -34,7 +34,7 @@ Get Started
 
 .. toctree::
    :hidden:
+   :glob:
 
-   server/index
-   printer/index
-   web/index
+   ./server/index
+   ./*/index
