@@ -1,8 +1,9 @@
+=============
 WebSocket API
 =============
 
 Understanding WebSockets
-------------------------
+========================
 
 A WebSocket is communication protocol that allow two-way communication, using only a single TCP connection.
 KindaFax uses the WebSocket protocol to allow real-time, low latency communication between clients and the server.
@@ -31,8 +32,3 @@ Below are examples, on how to start a WebSocket connection in a client applicati
         .. literalinclude:: /_code_examples/websocket_connection.py
             :language: python
             :linenos:
-
-
-.. toctree::
-    :glob:
-

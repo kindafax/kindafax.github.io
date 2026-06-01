@@ -77,4 +77,6 @@ KindaFax Server licensed under `GNU General Public License`_.
    :hidden:
    :glob:
 
-   websocket/index
+   user-guide/index
+   developing-clients/index
+   reference/index
