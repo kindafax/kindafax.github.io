@@ -101,21 +101,21 @@ html_theme_options = {
 
 redirects = {
     "./help/RECEIVER_NOT_FOUND.html":
-        "/docs/server/developing-clients/websocket.html#receiver-not-found",
+        "/docs/server/developing-clients/websocket/status.html#receiver-not-found",
 
     "./help/SENDER_NOT_FOUND.html":
-        "/docs/server/developing-clients/websocket.html#sender-not-found",
+        "/docs/server/developing-clients/websocket/status.html#sender-not-found",
 
     "./help/INVALID_MESSAGE_SCHEMA.html":
-        "/docs/server/developing-clients/websocket.html#invalid-message-schema",
+        "/docs/server/developing-clients/websocket/status.html#invalid-message-schema",
 
     "./help/CLIENT_AUTH_REQUIRED.html":
-        "/docs/server/developing-clients/websocket.html#client-auth-required",
+        "/docs/server/developing-clients/websocket/status.html#client-auth-required",
 
     "./help/TOO_MANY_REQUESTS.html":
-        "/docs/server/developing-clients/websocket.html#too-many-requests",
+        "/docs/server/developing-clients/websocket/status.html#too-many-requests",
 
     "./help/SERVER_ERROR.html":
-        "/docs/server/developing-clients/websocket.html#server-error",
+        "/docs/server/developing-clients/websocket/status.html#server-error",
         
 }
