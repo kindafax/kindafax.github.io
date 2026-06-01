@@ -7,5 +7,6 @@ Printer Client
 
 
 .. toctree::
-   :hidden:
+   
+   *
 
