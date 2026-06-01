@@ -34,10 +34,23 @@ I found that, I was basically creating an instant messenger, and decided, withou
 the project could be expand to not only use recept printers, but also have clients for 
 other platforms and devices.
 
+Table of Contents
+-----------------
+
 .. toctree::
-   :hidden:
-   :caption: Documentation
+   :caption: Server
+   :maxdepth: 1
    :glob:
 
-   docs/server/index
-   docs/*/index
+   Introduction <docs/server/index>
+   docs/server/user-guide/index
+   docs/server/developing-clients/index
+   docs/server/reference/index
+
+.. toctree::
+   :caption: Clients
+   :maxdepth: 1
+   :glob:
+
+   docs/web/index
+   docs/printer/index

@@ -2,9 +2,13 @@
 Developing Clients
 ==================
 
+See Also
+========
+
 .. toctree::
-   :hidden:
-   :caption: Documentation
+   :includehidden:
+   :maxdepth: 1
    :glob:
 
-   *
+   rest
+   websocket/index

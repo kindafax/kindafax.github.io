@@ -56,7 +56,8 @@ html_theme_options = {
     "page_layout": "default",
     "logo_target": "/",
     "accent_color": "blue",
-    "globaltoc_expand_depth": 1,
+    "globaltoc_expand_depth": 0,
+    "toctree_includehidden": False,
     
     "show_ai_links": False,
 
@@ -90,4 +91,31 @@ html_theme_options = {
             "url": "https://itsdanjc.com",
         }
     ]
+}
+
+# -- Options for HTML redirects -------------------------------------------------
+# https://documatt.com/sphinx-reredirects/usage/
+#
+# Redirects should be made when renaming pages, and to create shorter permanent
+# urls, if the is a doc link in an error message.
+
+redirects = {
+    "./help/RECEIVER_NOT_FOUND.html":
+        "/docs/server/developing-clients/websocket.html#receiver-not-found",
+
+    "./help/SENDER_NOT_FOUND.html":
+        "/docs/server/developing-clients/websocket.html#sender-not-found",
+
+    "./help/INVALID_MESSAGE_SCHEMA.html":
+        "/docs/server/developing-clients/websocket.html#invalid-message-schema",
+
+    "./help/CLIENT_AUTH_REQUIRED.html":
+        "/docs/server/developing-clients/websocket.html#client-auth-required",
+
+    "./help/TOO_MANY_REQUESTS.html":
+        "/docs/server/developing-clients/websocket.html#too-many-requests",
+
+    "./help/SERVER_ERROR.html":
+        "/docs/server/developing-clients/websocket.html#server-error",
+        
 }

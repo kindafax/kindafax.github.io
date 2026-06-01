@@ -7,5 +7,5 @@ Web Client
 
 
 .. toctree::
-   :hidden:
 
+   *
