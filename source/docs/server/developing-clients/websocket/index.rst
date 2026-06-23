@@ -5,12 +5,12 @@ WebSocket API
 Understanding WebSockets
 ========================
 
-A WebSocket is communication protocol that allow two-way communication, using only a single TCP connection.
+A WebSocket is communication protocol that allows two-way communication, using only a single TCP connection.
 KindaFax uses the WebSocket protocol to allow real-time, low latency communication between clients and the server.
 
 Other than KindaFax, WebSockets are often used for real-time applications like:
 
-- Muliplayer Games.
+- Multiplayer Games.
 - Live Notifications.
 - Live Dashboards.
 - Streaming Data Feeds.
