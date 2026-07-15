@@ -43,14 +43,14 @@ Table of Contents
    :glob:
 
    Introduction <docs/server/index>
-   docs/server/user-guide/index
    docs/server/developing-clients/index
-   docs/server/reference/index
+   .. docs/server/user-guide/index
+   .. docs/server/reference/index
 
-.. toctree::
-   :caption: Clients
-   :maxdepth: 1
-   :glob:
+.. .. toctree::
+..    :caption: Clients
+..    :maxdepth: 1
+..    :glob:
 
-   docs/web/index
-   docs/printer/index
+..    docs/web/index
+..    docs/printer/index
