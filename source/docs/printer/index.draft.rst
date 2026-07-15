@@ -7,6 +7,7 @@ Printer Client
 
 
 .. toctree::
+   :glob:
    
    *
 

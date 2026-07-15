@@ -7,5 +7,6 @@ Web Client
 
 
 .. toctree::
+   :glob:
 
    *
